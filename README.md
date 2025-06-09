@@ -1,1 +1,2 @@
-# Landing-Page
+# Landing Page
+For this project, I will be utilizing methods I learned so far to create my first ever actual website. Some techniques I would be using would be flexboxes, learning how to group specific divs and content in HTML and how to style a website using CSS, like font styles, colors, background and images.
