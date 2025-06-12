@@ -20,6 +20,7 @@
 }
 
 .secondary,
+.signup,
 a {
     font-size: 18px;
     color: #E5E7EB;
@@ -36,12 +37,18 @@ a {
 
 .signup {
     background-color: #3882F7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 25px;
+    border-style: none;
 }
 
-.info {
+.info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    margin: 30px;
 }
 
 .quote {
@@ -64,13 +71,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 10px 50px;
 
 }
 
 .right-links {
     display: flex;
-    justify-content: end;
     margin-left: auto;
 }
 
@@ -79,20 +85,101 @@ a {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 50px 0;
+    padding: 50px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 425px;
     gap: 5px;
     flex: 1;
 }
 
 .main-images {
-    flex: 1;
+    display: flex;
+    margin-left: auto;
+}
+
+
+.images {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    max-width: 150px;
+    margin: 0 20px;
+}
+
+.cat {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.ragdoll {
+    width: 200px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-text {
+    width: 825px;
+}
+
+.author {
+    padding: 10px;
+    margin-left: 35%;
+}
+
+.action {
+    display: flex;
+    width: auto;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.both-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.action-text {
+    display: flex;
+    font-weight: 900;
+}
+
+.action-button {
+    border-style: solid;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
